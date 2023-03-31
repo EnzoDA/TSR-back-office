@@ -1,0 +1,69 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-aspect {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 100px;
+    padding: 10px 0px 10px 0;
+    background-color: lightblue;
+    display: flex;
+}
+
+.logo-position {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo-home-size {
+    position: relative;
+    height: 100px;
+    margin: 0 0 0 30px;
+    border-radius:6px;
+}
+
+.home-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.div-menu-links {
+    margin: 0 50px 0 50px;
+}
+
+.no-text-decoration-links-menu{
+    text-decoration:none;
+    color:black;
+}
+
+.footer-aspect {
+    background-color: lightblue;
+    height: 100px;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: auto;
+}
+
+.login-link {
+    position: relative;
+    height: fit-content;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+

@@ -1,0 +1,95 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-aspect {
+    position: relative;
+    padding: 10px 0px 10px 0;
+    background-color: lightblue;
+    display: flex;
+}
+
+.logo-position {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo-home-size {
+    position: relative;
+    height: 100px;
+    margin: 0 0 0 30px;
+    border-radius:6px;
+}
+
+.home-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.div-menu-links {
+    padding: 0.9vw;
+    margin: 1vw;
+    font-size: 1.2em;
+    min-height: 11%;
+    max-width: 11%;
+}
+@media (max-width:800px)
+{
+    .div-menu-links
+    {
+        padding: 0.9vw;
+        font-size: 0.8em;
+    }
+    .login-link .deco{
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+}
+
+.no-text-decoration-links-menu{
+    text-decoration:none;
+    color:black;
+}
+
+.footer-aspect {
+    background-color: lightblue;
+    height: 100px;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: auto;
+}
+
+.login-link {
+    position: relative;
+    display: flex;
+}
+.login-link .deco
+{
+    text-align: center;
+    justify-content: center;
+    padding: 0.9em;
+    font-size: 1.3em;
+    font-weight: 900;
+    justify-content: center;
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+}
+.login-link .deco:hover
+{
+    color: rgba(206, 12, 12, 0.87);
+    transition: all 0.2s ease-in-out;
+}
